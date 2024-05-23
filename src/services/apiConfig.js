@@ -10,7 +10,7 @@ const getToken = () => {
 const api = axios.create({
   baseURL:
     process.env.NODE_ENV === "production"
-      ? "https://your-deployed-app.herokuapp.com"
+      ? "https://glacial-spire-93457-3c5927e4ca2f.herokuapp.com"
       : "http://127.0.0.1:8000",
 });
 
